@@ -1,6 +1,6 @@
 # git init
 # export PATH=/usr/local/share/npm/bin:$PATH
-
+export REPLICATE_API_TOKEN=r8_YIHBcqbcUo23Sx7ac7274Ib9FdPMcxe0arycC
 git add .
 git commit -m "Initial commit"
 git push 

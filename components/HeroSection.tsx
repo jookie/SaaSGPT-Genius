@@ -42,6 +42,14 @@ export default function HeroSection() {
         >
           Create a caption
         </Link>
+        <Link
+          className="bg-[#4b4cb7] rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-4 hover:bg-[#4b4cb7]/80"
+          // href={"https://thankfulthoughts.io/"}    
+          href={"https://thank-beta.vercel.app"}
+        >
+           Thankful Email
+        </Link>
+
       </div>
 
       <div className="flex justify-between items-center w-full flex-col sm:mt-10 mt-6 text-white">

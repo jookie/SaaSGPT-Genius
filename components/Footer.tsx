@@ -47,7 +47,7 @@ export default function Footer() {
           </svg>
         </Link>
         <Link
-          href="https://github.com/hqasmei/captionAI"
+          href="https://github.com/jookie/SaaSGPT-Genius.git"
           className="group"
           target="_blank"
           rel="noreferrer"
