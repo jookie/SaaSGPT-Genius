@@ -11,7 +11,7 @@ It uses an ML model from salesforce called [BLIP](https://github.com/salesforce/
 
 ## Running Locally
 
-### Cloning the repository the local machine.
+### Cloning the repository the local machine
 
 ```bash
 git clone
