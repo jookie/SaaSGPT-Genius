@@ -2,7 +2,7 @@
 # export PATH=/usr/local/share/npm/bin:$PATH
 export REPLICATE_API_TOKEN=r8_YIHBcqbcUo23Sx7ac7274Ib9FdPMcxe0arycC
 
-sudo git remote set-url origin https://github.com/jookie/captionai.git
+sudo git remote set-url origin https://github.com/jookie/SaaSGPT-Genius.git
 git add .
 git commit -m "Initial commit"
 git push 
