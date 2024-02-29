@@ -1,13 +1,14 @@
-"use client"
-import "../styles/globals.css"
-import { ChakraProvider } from "@chakra-ui/react"
-import Navbar from "../components/Navbar"
-import Footer from "../components/Footer"
+"use client";
+import "../styles/globals.css";
+import { ChakraProvider } from "@chakra-ui/react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import ConvexClientProvider from "ConvexClientProvider";
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -17,12 +18,14 @@ export default function RootLayout({
       */}
       <head />
       <body>
-        <ChakraProvider>
-          <Navbar />
-          {children}
-          <Footer />
-        </ChakraProvider>
+        <ConvexClientProvider>
+          <ChakraProvider>
+            <Navbar />
+            {children}
+            <Footer />
+          </ChakraProvider>
+        </ConvexClientProvider>
       </body>
     </html>
-  )
+  );
 }

@@ -74,7 +74,7 @@ export default function HeroSection() {
                 className="px-4 py-2 text-white bg-[#5a5cd1] rounded-md hover:bg-[#3f4194] focus:outline-none focus:ring"
                 onClick={() =>
                   copyToClipboard(
-                    "Israeli Soldiers sending drone from a window without a frame"
+                    "Israeli Soldiers sending drone from a window with missing window's frame frame"
                   )
                 }
               >
